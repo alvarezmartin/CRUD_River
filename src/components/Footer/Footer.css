@@ -1,0 +1,66 @@
+a{
+    text-decoration: none!important;
+    width: fit-content;
+
+}
+
+.footer{
+    background-color: #191919;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.anclas{
+    display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsors{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    padding: 0;
+}
+
+ul i{
+    font-size: 80px;
+    color: #b3b3b3;
+}
+
+.FB:hover{
+    color: #3b5998;
+}
+
+.LN:hover{
+    color: #0e76a8;
+}
+
+.TW:hover{
+    color: #00acee;
+}
+
+.IG:hover{
+    color: #E1306C;
+}
+
+.YT:hover{
+    color: #c4302b;
+}
+
+#codere{
+    opacity: 0.6;
+}
+

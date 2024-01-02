@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(./River_Plate_2023.otf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+header h2{
+    color: white;
+}
+
+header a,header h2{
+    margin: 0!important;
+}
+
+h2{
+    font-family: 'Lato';
+    color: black;
+}
+
+nav a{
+    text-decoration: none!important;
+    color: white;
+    font-weight: 700;
+    padding-right: 8px;
+}
+
+a:hover{
+    color: #b3b3b3;
+}
+
+header{
+    background-color: #191919;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: red;
+}
+
+.logo img{
+    height: 45px;
+}

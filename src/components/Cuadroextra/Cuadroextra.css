@@ -1,0 +1,25 @@
+.extra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.fa-circle-plus{
+    font-size: 80px;
+    color: rgb(83, 83, 83)
+}
+
+.fa-circle-plus:hover{
+    color: black;
+}
+
+.modal1, .overlay1{
+    width: 70%;
+    z-index: 1;
+}
+
+.inp{
+    width: 215px;
+}
